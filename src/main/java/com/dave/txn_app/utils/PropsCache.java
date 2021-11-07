@@ -13,10 +13,10 @@ public class PropsCache {
 	private final Properties prop = new Properties();
 	public static final boolean IS_DEBUG_MODE = false;
 	
-	public static final String LOG4J_DEBUG = "cfg\\log4j.config";
+	public static final String LOG4J_DEBUG = "cfg/log4j.properties";
 	public static final String PROPS_DEBUG = "cfg/config.properties";
 	
-	public static final String LOG4J_PROD = "cfg\\log4j.config";
+	public static final String LOG4J_PROD = "cfg/log4j.properties";
 	public static final String PROPS_PROD = "cfg/config.properties";
 	
 	String log4jPath = IS_DEBUG_MODE ? LOG4J_DEBUG : LOG4J_PROD;
